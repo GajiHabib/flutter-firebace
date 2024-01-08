@@ -1,8 +1,9 @@
 class Quiz {
+  final String?id;
   final String question;
   final List<Answer> answerList;
 
-  Quiz({required this.question, required this.answerList});
+  Quiz({required this.question, required this.answerList,this.id});
 }
 
 class Answer {
