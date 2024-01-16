@@ -156,16 +156,7 @@ class HomeScreen extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            // ElevatedButton(
-            //     onPressed: () {
-            //       Navigator.push(
-            //           context,
-            //           MaterialPageRoute(
-            //             builder: (context) => product(),
-            //           ));
-            //     },
-            //     child: Text('Next')),
-            ElevatedButton(onPressed: (){
+                        ElevatedButton(onPressed: (){
               Navigator.push(context,
               MaterialPageRoute(builder:(context) => product(),));
             }, 
@@ -187,3 +178,4 @@ class HomeScreen extends StatelessWidget {
     collection.add(beta);
   }
 }
+
