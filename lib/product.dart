@@ -168,9 +168,9 @@ class product extends StatelessWidget {
       // print(imageurl);
       var pagla =
           habib(imageurl: imageurl, name: name, price: price, title: title);
-
-          dhumghat.add('pagla');
-          print(dhumghat[0].pagla.name);
+           print(pagla.name);
+          dhumghat.add(pagla);
+                 
     }
     return dhumghat;
   }

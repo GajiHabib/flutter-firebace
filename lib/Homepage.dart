@@ -91,6 +91,7 @@ import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter_firebase/Auth/login%20page.dart';
 import 'package:flutter_firebase/product.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -161,6 +162,11 @@ class HomeScreen extends StatelessWidget {
               MaterialPageRoute(builder:(context) => product(),));
             }, 
             child: Text('Next')),
+            ElevatedButton(onPressed: (){
+              Navigator.push(context,
+               MaterialPageRoute(builder:(context) => loginpage(), ));
+            },
+             child: Text('Login page'))
           ],
         ),
       ),
